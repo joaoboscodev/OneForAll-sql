@@ -129,9 +129,9 @@ Se ainda houver alguma dúvida sobre como entregar seu projeto [aqui tem um vide
 </details>
 
 <details>
-<summary>⚠️ Use a versão 1.29 do Docker Compose</summary>
+<summary>⚠️ Use a versão 1.29 ou superior do Docker Compose</summary>
 
-- Para que você consiga rodar o seu projeto com docker e o avaliador funcione é fundamental que o seu docker compose esteja na **versão 1.29**.
+- Para que você consiga rodar o seu projeto com docker e o avaliador funcione é fundamental que o seu docker compose esteja na **versão 1.29** ou superior.
 
   - Verifique sua versão:
 
@@ -139,7 +139,7 @@ Se ainda houver alguma dúvida sobre como entregar seu projeto [aqui tem um vide
   docker-compose --version
   ```
 
-  Se não for a versão 1.29, faça os seguintes comandos para atualizar a versão:
+  Se não for a versão 1.29 ou superior, faça os seguintes comandos para atualizar a versão:
 
   ```bash
   sudo rm /usr/local/bin/docker-compose
