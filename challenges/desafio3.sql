@@ -5,4 +5,4 @@ FROM SpotifyClone.users u
 INNER JOIN SpotifyClone.histories h ON u.user_id = h.user_id
 INNER JOIN SpotifyClone.songs s ON h.song_id = s.song_id
 GROUP BY u.user_name
-ORDER BY u.user_name ASC;
+ORDER BY pessoa_usuaria ASC;
